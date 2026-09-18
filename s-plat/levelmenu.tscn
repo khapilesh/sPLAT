@@ -1,0 +1,174 @@
+[gd_scene format=3 uid="uid://cttglywae6jqv"]
+
+[ext_resource type="Script" uid="uid://b0o2jkasm2cj6" path="res://level_menu.gd" id="1_xmjvh"]
+
+[node name="Node2D" type="Node2D" unique_id=994590919]
+script = ExtResource("1_xmjvh")
+
+[node name="Button" type="Button" parent="." unique_id=1428396012]
+offset_left = 76.0
+offset_top = 85.0
+offset_right = 159.0
+offset_bottom = 162.0
+
+[node name="Button2" type="Button" parent="." unique_id=305219499]
+offset_left = 240.0
+offset_top = 83.0
+offset_right = 323.0
+offset_bottom = 160.0
+
+[node name="Button3" type="Button" parent="." unique_id=1127303279]
+offset_left = 396.0
+offset_top = 81.0
+offset_right = 479.0
+offset_bottom = 158.0
+
+[node name="Button4" type="Button" parent="." unique_id=128098700]
+offset_left = 561.0
+offset_top = 80.0
+offset_right = 644.0
+offset_bottom = 157.0
+
+[node name="Button5" type="Button" parent="." unique_id=1140251417]
+offset_left = 76.0
+offset_top = 245.0
+offset_right = 159.0
+offset_bottom = 322.0
+
+[node name="Button6" type="Button" parent="." unique_id=1303801101]
+offset_left = 241.0
+offset_top = 244.0
+offset_right = 324.0
+offset_bottom = 321.0
+
+[node name="Button7" type="Button" parent="." unique_id=1269645875]
+offset_left = 398.0
+offset_top = 238.0
+offset_right = 481.0
+offset_bottom = 315.0
+
+[node name="Button8" type="Button" parent="." unique_id=161370501]
+offset_left = 558.0
+offset_top = 234.0
+offset_right = 641.0
+offset_bottom = 311.0
+
+[node name="Button9" type="Button" parent="." unique_id=930104332]
+offset_left = 711.0
+offset_top = 81.0
+offset_right = 794.0
+offset_bottom = 158.0
+
+[node name="Button10" type="Button" parent="." unique_id=1418689492]
+offset_left = 876.0
+offset_top = 80.0
+offset_right = 959.0
+offset_bottom = 157.0
+
+[node name="Button11" type="Button" parent="." unique_id=1721826754]
+offset_left = 713.0
+offset_top = 238.0
+offset_right = 796.0
+offset_bottom = 315.0
+
+[node name="Button12" type="Button" parent="." unique_id=1486366149]
+offset_left = 873.0
+offset_top = 234.0
+offset_right = 956.0
+offset_bottom = 311.0
+
+[node name="Button13" type="Button" parent="." unique_id=130176178]
+offset_left = 1021.0
+offset_top = 80.0
+offset_right = 1104.0
+offset_bottom = 157.0
+
+[node name="Button14" type="Button" parent="." unique_id=99862219]
+offset_left = 1018.0
+offset_top = 234.0
+offset_right = 1101.0
+offset_bottom = 311.0
+
+[node name="Button15" type="Button" parent="." unique_id=139309927]
+offset_left = 78.0
+offset_top = 377.0
+offset_right = 161.0
+offset_bottom = 454.0
+
+[node name="Button16" type="Button" parent="." unique_id=1995400174]
+offset_left = 242.0
+offset_top = 375.0
+offset_right = 325.0
+offset_bottom = 452.0
+
+[node name="Button17" type="Button" parent="." unique_id=2001686]
+offset_left = 398.0
+offset_top = 373.0
+offset_right = 481.0
+offset_bottom = 450.0
+
+[node name="Button18" type="Button" parent="." unique_id=1296230279]
+offset_left = 563.0
+offset_top = 372.0
+offset_right = 646.0
+offset_bottom = 449.0
+
+[node name="Button19" type="Button" parent="." unique_id=1638112625]
+offset_left = 78.0
+offset_top = 537.0
+offset_right = 161.0
+offset_bottom = 614.0
+
+[node name="Button20" type="Button" parent="." unique_id=170812298]
+offset_left = 243.0
+offset_top = 536.0
+offset_right = 326.0
+offset_bottom = 613.0
+
+[node name="Button21" type="Button" parent="." unique_id=1147081536]
+offset_left = 400.0
+offset_top = 530.0
+offset_right = 483.0
+offset_bottom = 607.0
+
+[node name="Button22" type="Button" parent="." unique_id=1152853840]
+offset_left = 560.0
+offset_top = 526.0
+offset_right = 643.0
+offset_bottom = 603.0
+
+[node name="Button23" type="Button" parent="." unique_id=1171326826]
+offset_left = 713.0
+offset_top = 373.0
+offset_right = 796.0
+offset_bottom = 450.0
+
+[node name="Button24" type="Button" parent="." unique_id=1683972288]
+offset_left = 878.0
+offset_top = 372.0
+offset_right = 961.0
+offset_bottom = 449.0
+
+[node name="Button25" type="Button" parent="." unique_id=923161253]
+offset_left = 715.0
+offset_top = 530.0
+offset_right = 798.0
+offset_bottom = 607.0
+
+[node name="Button26" type="Button" parent="." unique_id=126538663]
+offset_left = 875.0
+offset_top = 526.0
+offset_right = 958.0
+offset_bottom = 603.0
+
+[node name="Button27" type="Button" parent="." unique_id=1646480015]
+offset_left = 1023.0
+offset_top = 372.0
+offset_right = 1106.0
+offset_bottom = 449.0
+
+[node name="Button28" type="Button" parent="." unique_id=442880896]
+offset_left = 1020.0
+offset_top = 526.0
+offset_right = 1103.0
+offset_bottom = 603.0
