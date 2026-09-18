@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://hiekqpgg20o2"]
+
+[ext_resource type="PackedScene" uid="uid://bws86drn8n3n8" path="res://player.tscn" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://7jwf306b32xi" path="res://harvest.gd" id="2_0xm2m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_78qe6"]
+size = Vector2(527, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
+size = Vector2(527, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rresx"]
+size = Vector2(31, 482)
+
+[node name="Node2D" type="Node2D" unique_id=501601008]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=481444149]
+offset_left = 107.0
+offset_top = 429.0
+offset_right = 634.0
+offset_bottom = 469.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ColorRect" unique_id=970442979]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ColorRect/StaticBody2D" unique_id=1877433890]
+position = Vector2(262.5, 21)
+shape = SubResource("RectangleShape2D_78qe6")
+
+[node name="ColorRect3" type="ColorRect" parent="." unique_id=1336136212]
+offset_left = -295.0
+offset_top = 183.0
+offset_right = 232.0
+offset_bottom = 223.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ColorRect3" unique_id=1845555426]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ColorRect3/StaticBody2D" unique_id=1321612368]
+position = Vector2(262.5, 21)
+shape = SubResource("RectangleShape2D_0xm2m")
+
+[node name="player" parent="." unique_id=1125479222 instance=ExtResource("1_ig7tw")]
+position = Vector2(256, 396)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1902111774]
+offset_left = 444.0
+offset_top = 366.0
+offset_right = 472.0
+offset_bottom = 828.0
+script = ExtResource("2_0xm2m")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ColorRect2" unique_id=684216072]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ColorRect2/StaticBody2D" unique_id=2037059251]
+position = Vector2(13.5, 241)
+shape = SubResource("RectangleShape2D_rresx")
+
+[connection signal="mouse_entered" from="ColorRect2" to="ColorRect2" method="_on_mouse_entered"]
